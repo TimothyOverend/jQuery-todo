@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jquery-todo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Todo</h1>
+    <div>Enter a Todo</div>
+    <form>
+        Todo:<br>
+        <input type="text" name="todoInput"><br>
+      </form>
+      <button type="button">Done</button>
+</body>
+</html>
+<script>
+
+$("todoInput").val();
+$("button").click(function(){
+    $("p").text(todoInput);
+});
+</script>
